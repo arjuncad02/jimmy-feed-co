@@ -1,22 +1,22 @@
 <svg width="900" height="700" viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="g101" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="g105" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#F77F00"/>
       <stop offset="100%" stop-color="#D62828"/>
     </linearGradient>
-    <filter id="noise101">
+    <filter id="noise105">
       <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise"/>
       <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.04 0"/>
     </filter>
   </defs>
-  <rect width="900" height="700" fill="url(#g101)"/>
-  <circle cx="552" cy="367" r="131" fill="white" opacity="0.05"/>
-<circle cx="49" cy="679" r="136" fill="white" opacity="0.05"/>
-<circle cx="219" cy="616" r="100" fill="white" opacity="0.05"/>
-<circle cx="295" cy="497" r="160" fill="white" opacity="0.05"/>
-<circle cx="801" cy="217" r="114" fill="white" opacity="0.05"/>
+  <rect width="900" height="700" fill="url(#g105)"/>
+  <circle cx="594" cy="111" r="193" fill="white" opacity="0.05"/>
+<circle cx="2" cy="319" r="139" fill="white" opacity="0.05"/>
+<circle cx="786" cy="584" r="114" fill="white" opacity="0.05"/>
+<circle cx="299" cy="167" r="180" fill="white" opacity="0.05"/>
+<circle cx="356" cy="169" r="168" fill="white" opacity="0.05"/>
 
-  <rect width="900" height="700" filter="url(#noise101)"/>
+  <rect width="900" height="700" filter="url(#noise105)"/>
   <g transform="translate(390.0,280.0) scale(1.2)" opacity="0.28">
     <path d="M20,70 Q50,50 80,70 L78,78 Q50,60 22,78 Z M18,68 Q50,45 82,68 L82,60 Q50,38 18,60 Z M25,58 L75,58 L73,52 L27,52 Z" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
