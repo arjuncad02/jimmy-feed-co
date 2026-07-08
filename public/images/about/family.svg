@@ -1,0 +1,25 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F77F00"/>
+      <stop offset="100%" stop-color="#D62828"/>
+    </linearGradient>
+    <filter id="noise5">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.04 0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g5)"/>
+  <circle cx="734" cy="814" r="262" fill="white" opacity="0.05"/>
+<circle cx="1085" cy="29" r="215" fill="white" opacity="0.05"/>
+<circle cx="510" cy="664" r="109" fill="white" opacity="0.05"/>
+<circle cx="321" cy="115" r="191" fill="white" opacity="0.05"/>
+<circle cx="960" cy="889" r="159" fill="white" opacity="0.05"/>
+
+  <rect width="1200" height="900" filter="url(#noise5)"/>
+  <g transform="translate(540.0,380.0) scale(1.2)" opacity="0.28">
+    <path d="M50,15 C20,25 15,60 50,90 C85,60 80,25 50,15 Z M50,90 L50,45" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="600.0" y="852" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="white" opacity="0.85">Family Owned</text>
+  <text x="600.0" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="white" opacity="0.6">Team photo</text>
+</svg>
