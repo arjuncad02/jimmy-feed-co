@@ -1,0 +1,25 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g17" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F77F00"/>
+      <stop offset="100%" stop-color="#D62828"/>
+    </linearGradient>
+    <filter id="noise17">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.04 0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#g17)"/>
+  <circle cx="621" cy="374" r="170" fill="white" opacity="0.05"/>
+<circle cx="357" cy="784" r="234" fill="white" opacity="0.05"/>
+<circle cx="569" cy="112" r="102" fill="white" opacity="0.05"/>
+<circle cx="509" cy="393" r="203" fill="white" opacity="0.05"/>
+<circle cx="516" cy="880" r="224" fill="white" opacity="0.05"/>
+
+  <rect width="1200" height="900" filter="url(#noise17)"/>
+  <g transform="translate(540.0,380.0) scale(1.2)" opacity="0.28">
+    <path d="M15,60 A35,15 0 1 0 85,60 A35,15 0 1 0 15,60 Z M50,45 L50,20" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="600.0" y="852" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="white" opacity="0.85">Office Catering</text>
+  <text x="600.0" y="878" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="white" opacity="0.6">Catering photo</text>
+</svg>
